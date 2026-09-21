@@ -1,4 +1,4 @@
-# VenneChecker (V1NNEBOARD)
+# STAR MODCHECKER
 
 > **This mod was made almost entirely by AI (Claude).** It has a lot of bugs, can be very glitchy, and **will give false positives on mod detection.** Do NOT use scan results as definitive proof that someone is cheating. This is an experimental/educational project — use at your own risk.
 
