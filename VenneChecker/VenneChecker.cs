@@ -12,9 +12,9 @@ namespace VenneChecker
     [BepInPlugin(PluginGUID, PluginName, PluginVersion)]
     public class VenneCheckerPlugin : BaseUnityPlugin
     {
-        public const string PluginGUID = "com.venne.vennechecker";
-        public const string PluginName = "VenneChecker";
-        public const string PluginVersion = "1.0.0";
+        public const string PluginGUID = "com.star.starchecker";
+        public const string PluginName = "STARMODCHECKER";
+        public const string PluginVersion = "0.0.1";
 
         /// <summary>Singleton instance of the plugin.</summary>
         public static VenneCheckerPlugin Instance { get; private set; }
@@ -100,11 +100,11 @@ namespace VenneChecker
                 NetworkEventDetector.Initialize();
 
                 _initialized = true;
-                Logger.LogInfo("VenneChecker fully initialized! Hold X to open menu.");
+                Logger.LogInfo("StarChecker fully initialized! Hold X to open menu.");
             }
             catch (System.Exception ex)
             {
-                Logger.LogError($"Failed to initialize VenneChecker: {ex.Message}\n{ex.StackTrace}");
+                Logger.LogError($"Failed to initialize StarChecker: {ex.Message}\n{ex.StackTrace}");
             }
         }
 
